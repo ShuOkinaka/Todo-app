@@ -1,0 +1,65 @@
+
+.delete-btn {
+  margin-left: 50px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color:gray;
+  opacity:0.6;
+}
+
+body {
+  background-color: #f4f4f4;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 500px;
+  margin:50px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#taskInput {
+    width: 300px;
+    padding: 10px;
+}
+
+#add3 {
+    padding: 10px;
+}
+
+
+li {
+  margin-top: 10px;
+  padding: 12px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+
+  display: flex;
+  align-items: center;
+}
+
+.input-area {
+  display: flex;
+  justify-content: center;
+  
+  gap:10px;
+}
+
+button {
+    border: none;
+    border-radius: 6px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
